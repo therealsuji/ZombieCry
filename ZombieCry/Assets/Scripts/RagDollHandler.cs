@@ -62,6 +62,11 @@ public class RagDollHandler : MonoBehaviour
                 collider.enabled = !state;
                 collider.isTrigger = !state;
             }
+            if (collider.transform.tag == "playerPunch")
+            {
+                collider.enabled = !state;
+                collider.isTrigger = !state;
+            }
         }
         GetComponent<Collider>().enabled = !state;
 

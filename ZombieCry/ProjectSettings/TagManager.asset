@@ -4,12 +4,20 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - weapon
   - weaponEnd
   - attack1
   - enemy
   - bullet
   - playerHealthCanvas
+  - scoreTxt
+  - waveTxt
+  - Collide
+  - Slot1
+  - Slot2
+  - Slot3
+  - shotgun
+  - Weapon
+  - playerPunch
   layers:
   - Default
   - TransparentFX
